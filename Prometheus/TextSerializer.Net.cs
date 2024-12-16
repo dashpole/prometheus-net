@@ -570,7 +570,7 @@ internal sealed class TextSerializer : IMetricsSerializer
     /// <summary>
     /// Encode the special variable in regular Prometheus form and also return a OpenMetrics variant, these can be
     /// the same.
-    /// see: https://github.com/OpenObservability/OpenMetrics/blob/main/specification/OpenMetrics.md#considerations-canonical-numbers
+    /// see: https://github.com/prometheus/OpenMetrics/blob/v1.0.0/specification/OpenMetrics.md#considerations-canonical-numbers
     /// </summary>
     internal static CanonicalLabel EncodeValueAsCanonicalLabel(byte[] name, double value)
     {
